@@ -8,7 +8,7 @@ def run_guessing_game
   while true do
     user_input = user_prompt
     
-    if user_input == num
+    if user_input.to_i == num
       puts "You guessed the correct number!"
       break
     elsif user_input == "exit"
